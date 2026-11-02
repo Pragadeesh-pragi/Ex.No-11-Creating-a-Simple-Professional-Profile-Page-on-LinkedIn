@@ -1,65 +1,41 @@
-# EX.NO.10-Creating-a-Custom-GPT-for-Saveetha-Engineering-College-using-OpenAI-s-GPT-Builder
+# Ex.No-11-Creating-a-Simple-Professional-Profile-Page-on-LinkedIn
 ## AIM
-To understand the concept of a Custom GPT and to design, build, configure, and publish a Custom GPT chatbot for Saveetha Engineering College (www.saveetha.ac.in) using OpenAI's GPT Builder, so that it can answer student and visitor questions about the college's courses, admissions, fees, facilities, and placements.
-## WHAT IS A CUSTOM GPT?
-A Custom GPT is a personalised version of ChatGPT that can be built without writing any code. It is created by giving the GPT Builder three things: a name, a set of Instructions that describe how it should behave, and (optionally) reference files called Knowledge that it reads before answering. Once published, the Custom GPT behaves like a specialised chatbot — for example, a “Saveetha Engineering College Assistant” that always answers using the college's own information instead of general internet knowledge.
-### TOOLS REQUIRED
-•	Web browser – Google Chrome or Microsoft Edge
-•	A ChatGPT account with a Plus, Team, Enterprise, or Edu subscription (the GPT Builder is not available on the free plan)
-•	OpenAI's GPT Builder – built into ChatGPT, opened from chatgpt.com/create
-•	Reference material about Saveetha Engineering College, collected from www.saveetha.ac.in (About, Courses, Admission, Placement, and Contact pages)
-•	MS Word / Google Docs – to organise the collected information into clean Knowledge files (PDF/DOCX) before uploading
-•	(Optional) Canva or the built-in DALL·E image generator – to design a profile picture/logo for the GPT
+To understand the importance of a professional online presence and to create a simple, complete, and professional profile page on LinkedIn, highlighting academic/professional details in a clear and organised manner.
+## WHAT IS LINKEDIN?
+LinkedIn is a professional networking website used by students, faculty, and working professionals to showcase their education, skills, and experience; connect with peers and recruiters; and discover jobs, internships, and industry updates. A well-built LinkedIn profile acts like an online resume that is visible to the whole professional community, so it should be accurate, complete, and presented in a clean, readable format.
+## TOOLS REQUIRED
+•	Web browser (Google Chrome / Microsoft Edge) or the LinkedIn mobile app
+•	A valid email ID or phone number, to register the LinkedIn account
+•	A recent, clear passport-size photograph for the profile picture
+•	A short write-up of education, skills, and experience prepared beforehand, to copy into the profile sections
+•	(Optional) A background/cover image related to your institution or field, for the banner
 ## PROCEDURE
-### Step 1: Collecting College Information (Knowledge Preparation)
-Before building the GPT, gather accurate information about Saveetha Engineering College from its official website www.saveetha.ac.in. Visit and note down content from pages such as About Us, Departments/Courses Offered, Admission Procedure, Fee Structure, Placements, Facilities, and Contact Details. Paste this content into a Word document and save it as a PDF. This file becomes the “Knowledge” for the GPT, so that it answers only with correct, college-specific information instead of guessing.
-### Step 2: Signing in to ChatGPT
-Open a web browser and go to chatgpt.com. Sign in using an existing OpenAI account, or create a new one. Make sure the account is upgraded to a ChatGPT Plus, Team, Enterprise, or Edu plan, since the GPT Builder is a paid-plan feature and is not available on the free version.
-### Step 3: Opening the GPT Builder
-On the left sidebar, click “Explore GPTs” and then click the “+ Create” button (or go directly to chatgpt.com/create). This opens the GPT Builder, which has two tabs: Create and Configure.
-### Step 4: Building the GPT Conversationally (Create Tab)
-In the Create tab, type a plain-English description of the required GPT in the message box, for example:
-“Create a GPT for Saveetha Engineering College that answers questions about admissions, courses, fees, placements, and campus facilities in a friendly and professional tone.”
-The Builder chats back and automatically suggests a name, a short description, and a profile picture for the GPT based on this description.
-### Step 5: Fine-Tuning with the Configure Tab
-Switch to the Configure tab for full manual control over the GPT, and fill in the following fields:
-•	Name: e.g., “Saveetha Engineering College Assistant”
-•	Description: a one-line summary, e.g., “Your guide to admissions, courses, fees, and placements at Saveetha Engineering College.”
-•	Instructions: a detailed system prompt describing the GPT's role, tone, and rules (see the sample instructions given later in this report).
-•	Conversation starters: four sample questions users can click to begin the chat, for example:
-1.	What B.Tech courses does Saveetha Engineering College offer?
-2.	How do I apply for admission?
-3.	What is the placement record of the college?
-4.	Where is the campus located?
-### Step 6: Uploading Knowledge Files
-In the Knowledge section of the Configure tab, click “Upload files” and add the PDF/DOCX file prepared in Step 1. This lets the GPT search and quote from the actual college content instead of guessing, which keeps its answers accurate and trustworthy. As a best practice, upload 2 to 5 well-organised files rather than many small ones, since retrieval accuracy drops once too many files are added.
-### Step 7: Enabling Capabilities
-In the Capabilities section, select the tools the GPT is allowed to use:
-•	Web Browsing – to fetch live information if the uploaded knowledge file becomes outdated
-•	Code Interpreter & Data Analysis – not usually needed for a college-information bot, so it can be left off
-•	Image Generation (DALL·E) – optional, for generating a campus or course-related illustration
-For a simple college-information GPT, enabling Web Browsing along with the uploaded Knowledge is generally enough.
-### Step 8: Setting Up Actions (Optional, Advanced)
-Actions allow the GPT to call an external API — for example, to check live seat availability or fetch the latest fee notification from a college server. This requires an API endpoint and an OpenAPI schema, so it is optional for a basic informational GPT and can be skipped by beginners.
-### Step 9: Testing the GPT
-Use the Preview panel on the right side of the Builder to chat with the GPT before publishing it. Ask sample questions such as “What courses are offered?” or “How do I apply for admission?” and check whether the answers are correct, polite, and based on the uploaded knowledge. If any answer is wrong or incomplete, edit the Instructions or Knowledge files and test again until the responses are accurate.
-### Step 10: Publishing and Sharing
-Click the “Create” (or “Save”) button in the top-right corner of the Builder. Choose who can access the GPT:
-•	Only me – for personal testing
-•	Anyone with the link – to share with students and faculty of the department
-•	GPT Store (Public) – to make the GPT visible to all ChatGPT users
-Click “Publish”/“Update” to finish. Copy the generated link and share it with students through the college portal, WhatsApp group, or LMS.
-### SAMPLE INSTRUCTIONS (SYSTEM PROMPT) FOR THE GPT
-<br><img width="587" height="151" alt="image" src="https://github.com/user-attachments/assets/cd378cba-9488-4cc9-9974-99a44f3695f8" /></br>
+## Step 1: Preparing Your Information
+Before creating the profile, prepare the basic details offline in a document: full name, current designation (e.g., Professor, Student), institution name, location, a short “About” summary (3–4 lines), educational qualifications, work experience, and key skills. Preparing this in advance makes the profile creation process faster and avoids incomplete or hurried entries.
+## Step 2: Signing Up on LinkedIn
+Open a web browser and go to www.linkedin.com. Click “Join now” and enter an email address or phone number along with a secure password. Enter your first name and last name, then verify the account using the OTP/confirmation link sent to your email or phone.
+## Step 3: Adding a Profile Photo and Background Image
+After logging in, click the profile icon and select “View Profile,” then click the camera icon on the circular photo area to upload a clear, recent passport-size photograph. Next, click the camera icon on the banner area at the top of the page to add a background image, such as a campus photo or a subject-related graphic. A photo and banner make the profile look complete and trustworthy.
+## Step 4: Adding Name, Headline, and Location
+Click the pencil (edit) icon near your name and fill in: Name, Headline (a short line describing your role, e.g., “Professor, Department of Information Technology at Saveetha Engineering College”), and Location (city and country). The headline is one of the most visible parts of the profile, so keep it short, clear, and specific to your role.
+## Step 5: Writing the About Section
+Scroll to the “About” section and click “Add profile section” → “About.” Write a short, professional summary (3–5 sentences) describing your role, interests, and what you focus on — for example, teaching, research area, or specialisation. Keep the tone simple and avoid unnecessary jargon so that any visitor can understand it quickly.
+## Step 6: Adding Education Details
+Click “Add profile section” → “Education.” Enter the school/college/university name, degree, field of study, and start and end years for each qualification, starting with the highest degree. This section helps recruiters and peers understand your academic background at a glance.
+## Step 7: Adding Experience Details
+Click “Add profile section” → “Experience.” For each role, enter the job title, organisation name, employment type, location, and duration (start date, and “present” if it is a current role), along with a short description of your responsibilities. Add entries in reverse chronological order, with the most recent role first.
+## Step 8: Adding Skills
+Click “Add profile section” → “Skills” and add relevant skills such as “Artificial Intelligence,” “Machine Learning,” “Teaching,” or “Python,” depending on your field. Adding accurate, specific skills makes the profile easier to find in searches and lets connections endorse those skills.
+## Step 9: Reviewing Profile Strength and Privacy Settings
+LinkedIn shows a “Profile strength” indicator (e.g., Beginner, Intermediate, All-Star) that reflects how complete the profile is. Fill in any remaining suggested sections to improve this rating. Also check Settings → “Visibility” to control what parts of the profile are publicly visible versus visible only to connections.
+## Step 10: Publishing and Sharing the Profile
+Once all sections are filled in, click “View profile” to see how it appears to others. Click the “Share profile” or “Copy link to profile” option to get a shareable URL, which can be added to a resume, email signature, or ID card for easy access by recruiters, peers, and students.
 ## SAMPLE OUTPUT SCREEN
-The screen below shows a sample conversation with the published “Saveetha Engineering College Assistant” Custom GPT, illustrating how it answers a student's admission query using the uploaded knowledge files.
-</br><img width="545" height="385" alt="image" src="https://github.com/user-attachments/assets/677bee25-a510-48db-824d-4dbb5795d610" /></br>
+The screen below shows a sample completed LinkedIn profile page, illustrating how the name, headline, About section, and Experience section appear once the profile has been filled in.
+<img width="572" height="439" alt="image" src="https://github.com/user-attachments/assets/be7d299c-31c9-49fc-9f8f-63853af11bd6" />
 ## OUTPUT
-A working Custom GPT named “Saveetha Engineering College Assistant” is created and published. When a user asks questions like “What courses does Saveetha offer?” or “How can I apply for B.Tech admission?”, the GPT replies with accurate information drawn from the uploaded college knowledge files, in a friendly and professional tone.
+A simple, professional LinkedIn profile page is created, containing a profile photo, background banner, headline, About summary, Education, Experience, and Skills sections, and is ready to be shared through a public profile link.
 ## RESULT
-Thus, a Custom GPT chatbot for Saveetha Engineering College was successfully designed, configured with knowledge files and instructions, tested, and published using OpenAI's GPT
-Builder.
-
+Thus, a simple and professional profile page was successfully created on LinkedIn, with all essential sections filled in correctly and the profile made ready for sharing.
 ## CONCLUSION
-
-### In conclusion, building a Custom GPT shows how modern generative AI tools let anyone — even without programming knowledge — create a specialised, organisation-branded chatbot in a few simple steps. By combining clear instructions, focused knowledge files, and the right capabilities, Saveetha Engineering College can offer students and visitors instant, accurate answers to their questions, saving time for both the institution and its users.
+In conclusion, creating a LinkedIn profile is a simple but important step in building a professional online identity. By filling in accurate details across the Photo, Headline, About, Education, Experience, and Skills sections, students and faculty can present themselves professionally to recruiters, peers, and the wider academic and industry community.
